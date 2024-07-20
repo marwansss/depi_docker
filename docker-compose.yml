@@ -56,5 +56,20 @@ networks:
     ipam:
       config:
         - subnet: 10.20.0.0/16
+
+
+
+#if networks already created 
+
+#networks:
+#  frontend:
+#    external:
+#      name: frontend
+
+#  backend:
+#    external:
+#      name: backend
+
+
 volumes:
   mongo_vol:
